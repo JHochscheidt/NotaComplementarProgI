@@ -1,1 +1,1 @@
-//Faça um programa que imprima na tela os N primeiros numeros primos existentes. oi
+//Faça um programa que imprima na tela os N primeiros numeros primos existentes.
