@@ -1,20 +1,57 @@
 class Numero{
-	private String valor;
+	private int valor;
 	
 	
+	public Numero(){
 	
-	public Numero(String v){
+	}
+	
+	
+	public Numero(int v){
 		this.valor = v;
 	}
 	
 	
-	public void setValor(String v){
+	public void setValor(int v){
 		this.valor = v;
 	}
 	
-	public String getValor(){
+	public int getValor(){
 		return this.valor;
 	}
+		
+	public void setValor(String s){
+		if(s.equals("zero")){
+			this.valor = 0;
+		}
+		
+		if(s.equals("um")){
+			this.valor = 1;
+		}
+		if(s.equals("dois")){
+			this.valor = 2;
+		}
+		
+	}
+	public Numero(String s){
+		if(s.equals("zero")){
+			this.valor = 0;
+		}
+		
+		if(s.equals("um")){
+			this.valor = 1;
+		}
+		if(s.equals("dois")){
+			this.valor = 2;
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
 
 
 }
