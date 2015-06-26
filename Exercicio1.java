@@ -8,8 +8,10 @@ class Exercicio1 {
 		public static void main(String[] args){
 		
 		Scanner s = new Scanner(System.in);
-		
+		String n;
 				System.out.println("Informe um valor para N");
+				n = s.nextLine();
+				
 				
 			
 		

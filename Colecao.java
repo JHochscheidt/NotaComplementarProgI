@@ -1,4 +1,6 @@
-class Colecao {
+class Colecao{
+	
+	
 	
 	
 }
